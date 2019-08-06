@@ -1,0 +1,62 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+#MainDiv > p{
+    font-size:30px;
+}
+
+/* first homework css */
+#nonScrollDiv{
+    width:200px;
+    overflow:hidden;
+}
+
+#scrollBlindDiv{
+    height:200px;
+    width:230px;
+    overflow-x:hidden;
+    overflow-y:scroll;
+}
+
+#scrollBlindDiv > ul{
+    width:200px;
+    padding:0;
+}
+
+#scrollBlindDiv > ul > li{
+    height:50px;
+    border:1px solid black;
+    list-style:none;
+}
+
+/* second homework css */
+input[type="checkbox"]{
+    display:none;
+}
+
+input[type="checkbox"] + label{
+    width: 24px;
+    height: 24px;
+    background-color:rgb(221, 221, 221);
+    display:inline-block;
+    border-radius:100%;
+}
+input[type="checkbox"] + label span{
+    padding-left:5px;
+    position: absolute;
+    top:275px;
+    display:none;
+    width:24px;
+    height: 24px;
+    font-size:22px;
+}
+
+input[type="checkbox"]:checked + label span{
+    display:inline-block;
+}
+
+/* fifth homework */
+
+/* none */
