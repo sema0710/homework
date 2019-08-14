@@ -16,6 +16,7 @@ const ImgLoader = ()=>{
     return(
         <div id="FileLoadDiv">
             <input type="file" accept=".jpg,.jpeg,.png" id="Filereader" onChange={FileRead}/>
+            <br/>
             <img src="" alt="error" id="LoadImg"/>
         </div>
     )

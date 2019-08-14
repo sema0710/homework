@@ -56,6 +56,51 @@ input[type="checkbox"] + label span{
 input[type="checkbox"]:checked + label span{
     display:inline-block;
 }
+/* third homework*/
+
+
+.dropDownItems{
+    width:200px;
+    height:30px;
+    background-color:rgb(128, 119, 255);
+    font-size:20px;
+    text-align: center;
+    border-radius: 1px;
+}
+
+#dropDownDiv div:nth-child(2){
+    background-color:rgb(255, 125, 125);
+}
+
+#dropDownDiv div:nth-child(3){
+    background-color:rgb(128, 119, 255)
+}
+
+#dropDownButton{
+    background-color:rgb(216, 216, 216);
+    width:200px;
+    height:30px;
+    font-size:20px;
+    border-radius: 1px;
+}
+#dropDownButton > div > p{
+    text-align: center;
+}
+
+#resultDiv{
+    width:180px;
+    display:inline-block;
+}
+
+.DropDownIcon {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+}
+
 
 /* fifth homework */
 
