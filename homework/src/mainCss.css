@@ -32,29 +32,44 @@
 }
 
 /* second homework css */
-input[type="checkbox"]{
-    display:none;
+
+#StyledComponents{
+    display:flex;    
 }
 
-input[type="checkbox"] + label{
-    width: 24px;
-    height: 24px;
-    background-color:rgb(221, 221, 221);
+#StyledCheckBox{
+    width:15px;
+    height:15px;
     display:inline-block;
-    border-radius:100%;
+    background-color:rgb(199, 199, 199);
+    border:1px rgb(200, 200, 200) solid;
+    border-radius: 3px;
 }
-input[type="checkbox"] + label span{
-    padding-left:5px;
-    position: absolute;
-    top:275px;
-    display:none;
-    width:24px;
-    height: 24px;
-    font-size:22px;
+#StyledCheckBoxIconDiv{
+    transform:translate(2px,-9px);
+}
+#StyledCheckBoxIcon{
+    font-size:20px;
+    user-select: none;
 }
 
-input[type="checkbox"]:checked + label span{
-    display:inline-block;
+#StyledRadioDiv{
+    margin-left:10px;
+}
+
+#StyledRadio{
+    width:15px;
+    height:15px;
+    background-color:rgb(187, 187, 187);
+    border-radius: 50%;
+}
+
+#StyledRadioIcon{
+    width:10px;
+    height : 10px;
+    border-radius: 50%;
+    background-color:black;
+    transform:translate(2.5px,2.5px);
 }
 /* third homework*/
 
